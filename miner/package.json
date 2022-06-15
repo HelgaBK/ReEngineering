@@ -1,8 +1,10 @@
 {
-	"name": "minesweeper",
+	"name": "ReEngineering",
 	"private": true,
 	"version": "0.0.0",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
 	"scripts": {
 		"dev:js": "rollup -c rollup.config.js --watch",
 		"dev:css": "postcss ./src/styles/index.css --output ./dist/styles.css --watch",
@@ -11,6 +13,7 @@
 		"build": "echo TODO 😅"
 	},
 	"dependencies": {
+		"@babel/core": "^7.16.0",
 		"clsx": "^1.1.1",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
