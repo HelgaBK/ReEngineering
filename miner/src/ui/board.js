@@ -268,7 +268,7 @@ const Board = ({ board = presets.Beginner }) => {
 				<WindowsWindowHeader>Minesweeper</WindowsWindowHeader>
 				<div className={scope("board__menu")} aria-hidden>
 					<span>Game</span>
-					<span>Help</span>
+					<span onClick={() => alert("The rules of Miner")}>Help</span>
 				</div>
 				<WindowsBox className={scope("board__grid-wrapper")} depth={4}>
 					<WindowsBox
